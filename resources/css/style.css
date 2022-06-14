@@ -1,0 +1,292 @@
+        /* ============= */
+        /* vasic setup */
+        /* ============= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+   
+}
+body{
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 1.6rem;
+    
+    
+}
+ul li{
+    list-style-type: none;
+}
+h1{
+    font-size:3.2rem;
+    color: #fff;
+    
+}
+                                                        /* .clearfix::after {
+                                                        content:"";
+                                                        display: block;
+                                                        clear: both;
+                                                        height: 0;
+                                                        visibility: hidden;   
+                                                    } */
+
+        /* ================== */
+           /* reusable setup */
+        /* ================== */
+.row{
+    max-width: 114rem;
+    margin: 0 auto;
+} 
+section {
+    padding: 8rem 0;
+    
+}
+h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #fff;
+    text-align: center; 
+}
+h2::after{
+    content: "";
+    display: block;
+    height: .3rem;
+    background: #16b79b;
+    width: 7.5rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+   
+}
+h3 {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.box{
+    padding: 1%;
+}
+.box p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    
+}
+
+        /* ===button===  */
+.btn:link,
+.btn:visited,
+.btn {
+    background:#333 ;
+    border-bottom: .3rem solid #000 ;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.5rem 6rem;
+    border-radius: .5rem;
+    display: inline-block;
+    margin-top: 4.5rem;
+    font-size: 1.6rem;
+}
+        /* ================== */
+           /* Header setup */
+        /* ================== */
+header {
+    background:linear-gradient(#87509cdc,#87509cd0), url(../css/img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 85vh;
+    position: relative;
+    background-attachment: fixed;
+}
+.logo{
+    height: 3.5rem;
+    width: auto;
+    margin-top: 3.5rem;
+    float: left;
+}
+                /* main navigition */
+.main-nav{
+    float: right;
+    margin-top: 4rem;
+}
+.main-nav li{
+    display:inline-block ;
+    margin-left: 1rem;
+}
+.main-nav li:first-child {
+    margin-left: 0;
+    border-radius: .5rem ;
+    
+    
+    
+}
+.main-nav li a:link ,
+.main-nav li a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .6rem 1.6rem;
+    background-color: #734c8600;
+    border-radius: .3rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    transition: .3s;
+    
+}
+.main-nav li:hover a:link ,
+.main-nav li:hover a:visited{
+    background-color: #734c86;
+}
+.active{
+    background-color: #734c86;
+}
+.hero-text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+
+}
+.btn-hero:link,
+.btn-hero:visited {
+    background:#eb7d4b;
+    border: #c36a5d;
+}
+                /* ================== */
+                /* services section*/
+                /* ================== */
+.services-section{
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(#17c2a3ef, #17c2a3ef), url(../css/img/services-bg.jpg);
+}
+    /*====== paragraph======  */
+    .little-description{
+        font-size: 1.8rem;
+        width: 60%;
+        margin: auto;
+        line-height: 3rem;
+    }
+.services-icon {
+    height: 12rem;
+    margin-top: 4.5rem;
+    margin-bottom: 3.5rem;
+}
+                 /* ================== */
+                /* services section*/
+                /* ================== */
+.team-section{
+    text-align: center;
+    background: linear-gradient(#e7f1f8da,#e7f1f8ce), url(../css/img/team-bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center top;
+}
+.team-section h2{
+    color: #ffffff;
+}
+.team-section h2::after{
+    background: #dbe8f1;
+}
+.team-member{
+    margin-top: 4.5rem;
+    margin-bottom: 3.5rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+.team-section h3{
+    color: #838897
+}
+.role {
+    color:#0fdae9 ;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    display: inline-block;
+    margin-top: .0rem;
+    margin-bottom: .8rem;
+    
+}
+.team-section .box p{
+    color: #5c7189;
+}
+.social-link{
+   margin-top:  4.5rem;
+}
+.social-link li{
+    display: inline-block;
+    margin: 0 .5rem;
+}
+.social-link li a{
+    color: #fff;
+    
+}
+.social-link li a i::before{
+   
+    background: #acbeca;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 1rem;
+    transition: .5s;
+}
+.clearfix h2{
+    color: rgb(78, 78, 78);
+    font-size:3.5rem;
+    
+}
+.social-link li a:hover i::before{
+    background: #333;
+    transform: rotate(360deg);
+    
+
+}
+                /* ================== */
+                /* ===skill section===*/
+                /* ================== */
+.skill-section{
+    background: linear-gradient(#cececec1, #cececec1), url(../css/img/skill-bg.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.skill-section h2,
+.skill-section h3{
+    color: #999ca3;
+}
+.skill-section h2::after{
+    background: #a3a7aa
+}
+svg .radial-progress circle{
+    stroke-width: 5;
+}
+svg .radial-progress text{
+    fill: #364761;
+    font-size: 1.5rem;
+}
+svg.web-design circle{
+    stroke: #30bae7;
+}
+svg.html-css circle{
+    stroke: #dc5f91;
+}
+svg.graphic-design circle{
+    stroke: #15c7a8;
+}
+svg.ui-xi circle{
+    stroke: #ee9369;
+}
