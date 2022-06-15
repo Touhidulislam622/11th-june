@@ -27,13 +27,13 @@ h1{
     color: #fff;
     
 }
-                                                        /* .clearfix::after {
+                                                     /* .clearfix::after { 
                                                         content:"";
                                                         display: block;
                                                         clear: both;
                                                         height: 0;
                                                         visibility: hidden;   
-                                                    } */
+                                                    }  */
 
         /* ================== */
            /* reusable setup */
@@ -61,7 +61,7 @@ h2::after{
     height: .3rem;
     background: #16b79b;
     width: 7.5rem;
-    margin: auto;
+    margin:auto;
     margin-top: 2rem;
     margin-bottom: 2rem; 
    
@@ -373,7 +373,7 @@ svg.ui-xi circle{
     color: #fff;
 }
 
-.testimonial col:nth-child(3) {
+.testimonial .col:nth-child(3) {
     margin-left: 0;
 }
 .testimonial col:nth-child(1),
@@ -410,4 +410,77 @@ svg.ui-xi circle{
 }
 .testimonial h2::after{
     background: #cb4279;
+
+}
+        /* ==========contract section=========== */
+.contract{
+ text-align: center;
+ background: linear-gradient(#3c5399dc , #3c5399ee ),url(../css/img/contact-bg.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+}
+.contract h2{
+    color: white;
+    font-size: 4rem;
+    font-weight: 400;
+}
+.contract  h2::after{
+    background: #344b8a;
+}
+.contract .little-description{
+    color: #fff;
+}  
+.contract form{
+    margin-top: 5rem;
+    width: 70%;
+    margin-left: 15%;
+} 
+.contract input[type="text"],   
+.contract input[type="email"], 
+.contract textarea{
+    background: #273a71;
+    border: .1rem solid #273a60;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    font-size: 1.8rem;
+    margin: .5rem 0;
+}    
+.contract form ::placeholder{
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    
+} 
+.btn-submit{
+    background:#30bae7 ;
+    border: 0;
+    border-bottom: .3rem solid #3194c5;
+}
+.btn-submit:hover{
+    cursor: pointer;
+}
+                        /* ==========footer section=========== */
+.footer-section{
+    background: #344b8e;
+    padding: 3rem 0;
+    text-align: center;
+    
+    border-top: .1rem solid rgba(189, 189, 189, 0.733);
+
+}
+.footer-section li{
+    display: inline-block;
+    margin: 0 2rem;
+}
+.footer-section li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 2.4rem;
+}
+.footer-section li:hover a{
+    color: #00ffea;
 }
