@@ -80,6 +80,12 @@ h3 {
     margin-top: 2rem;
     
 }
+h4{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+}
 
         /* ===button===  */
 .btn:link,
@@ -258,7 +264,7 @@ header {
                 /* ===skill section===*/
                 /* ================== */
 .skill-section{
-    background: linear-gradient(#cececec1, #cececec1), url(../css/img/skill-bg.jpg);
+    background: linear-gradient(#cececee1, #cececee5), url(../css/img/skill-bg.jpg);
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -289,4 +295,119 @@ svg.graphic-design circle{
 }
 svg.ui-xi circle{
     stroke: #ee9369;
+}
+
+                /* ================== */
+                /* ===portfolio section===*/
+                /* ================== */
+.portfolio-section{
+    background:linear-gradient(#ffdd99e0, #ffdd99e0), url(../css/img/portfolio-bg.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.portfolio-section h2::after{
+    background: #f6d490;
+}
+.portfolio-filter{
+    margin: 4.5rem 0;
+    
+}
+.portfolio-filter button{
+    background:#ebc985 ;
+    font-size:1.8rem;
+    padding: 1rem 2rem;
+    border: 0;
+    border-radius: .5rem;
+    text-transform: uppercase;
+    color:#242424; 
+    margin: 0 .5rem;
+    transition: .3s;
+}
+.portfolio-filter button:hover{
+    cursor: pointer;
+    box-shadow:inset 0 .3rem .5rem rgba(66, 65, 60, 0.801) ;
+}
+.portfolio img{
+    width: 100%;
+    height: 30rem;
+    
+}
+
+.portfolio-section .col:nth-child(3) {
+   margin-left: 0;
+}
+            
+.row .btn-load-more{
+    background: #17c2a4;
+    border-color: #498a6b;
+}
+.portfolio-section .mixitup-control-active{
+    background: #fff;
+}
+                /* ================== */
+                /* ===portfolio section===*/
+                /* ================== */
+.testimonial{
+    background:linear-gradient(#d74680d7, #d74680d5), url(../css/img/testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    
+    
+}
+.testimonial h2{
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 400;
+  
+}
+.testimonial h3{
+    text-align: left;
+}
+.testimonial .little-description{
+    text-align: center;
+    color: #fff;
+}
+
+.testimonial col:nth-child(3) {
+    margin-left: 0;
+}
+.testimonial col:nth-child(1),
+.testimonial col:nth-child(2) {
+    margin-top: 4rem;
+}
+.testimonial col:nth-child(3),
+.testimonial col:nth-child(4) {
+    margin-top: 8rem;
+}
+.client-photo{
+    width: 10rem;
+    float: left;
+}
+.client-photo img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+}
+.client-review{
+    width: 40rem;
+    float: left;
+    
+}
+.client-review p{
+    font-size: 2.1rem;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+.client-review .role{
+    color: #f7cd7b;
+}
+.testimonial h2::after{
+    background: #cb4279;
 }
