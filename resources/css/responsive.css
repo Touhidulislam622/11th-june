@@ -1,0 +1,25 @@
+@media only screen and (max-width:1024px)
+{
+    .row{
+        margin: 0 15px;
+    }
+    .main-nav{
+        display: none;
+    }
+    html{
+        font-size: 57.5%;
+    }
+    .client-photo{
+        width: 100px;
+        float: none;
+        text-align:center;
+    }
+}
+@media only screen and (max-width:980px){
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+    }
+}
